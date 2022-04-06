@@ -1,0 +1,9 @@
+ffmpeg -i ./video/勿忘_1.mp4 -y -f image2 -r 5 -s 320x240 -strftime 1 "./img/%Y-%m-%d_%H-%M-%S_doorbell.jpg"
+ffmpeg -i ./video/勿忘_1.mp4 -y -f image2 -r 1/5 %d.jpg
+ffmpeg -ss 4 -i ./video/勿忘_1.mp4 -s 320x240 -frames:v 1 ./im
+ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 ./video/勿忘_1.mp4
+
+C:/dev/nodejs/hashmap/bin/ffmpeg.exe -ss 35 -y -i "C:/dev\nodejs\hashmap.\video\勿忘_1.mp4" -s 320x240 -frames:v 1 -o "C:\dev\nodejs\hashmap/img/[0时0分35秒]勿忘_1.jpg"
+node index.js -t test -i "./a.jpg"
+
+node index.js -t test -v "C:\dev\nodejs\videoFrameFinder\test\勿忘_1.mp4,C:\dev\nodejs\videoFrameFinder\test\勿忘_1 - 副本.mp4"

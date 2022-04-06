@@ -1,0 +1,88 @@
+body {
+	display: inline-flex;
+    width: 100%;
+	margin: 0;
+	min-height: calc(100vh);
+	-webkit-overflow-scrolling: touch;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	/*padding: 50px;*/
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background: rgba(#101F1C, 0.1);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(144, 147, 153, .5);
+    background-clip: padding-box;
+    min-height: 28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(144, 147, 153, .3);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -webkit-user-drag: none;
+
+}
+
+.result_item {
+    padding:  20px;
+}
+
+.result_item img {
+    width: 100%;
+}
+
+.layui-anim.layui-anim-upbit {
+	color:  #000000;
+}
+
+*:not(input, textarea) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.hide {
+	display: none;
+}
+
+.webview {
+	height: 100%;
+	/*margin-bottom: 50px;*/
+}
+
+.webview-div {
+	height: 1080px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.w-full {
+	width:  100%;
+}

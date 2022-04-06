@@ -1,0 +1,29 @@
+{
+  "name": "videoFrameFinder",
+  "version": "1.0.0",
+  "description": "find video position by image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "image-search"
+  ],
+  "author": "neysummer2000",
+  "license": "ISC",
+  "dependencies": {
+    "@canvas/image": "^1.0.0",
+    "better-sqlite3": "^7.5.0",
+    "blockhash-core": "^0.1.0",
+    "body-parser": "^1.20.0",
+    "chalk": "^4.1.0",
+    "cli-spinner": "^0.2.10",
+    "express": "^4.17.3",
+    "formidable": "^2.0.1",
+    "iconv-lite": "^0.6.3",
+    "images": "^3.2.4",
+    "multispinner": "^0.2.1",
+    "spinnies": "^0.5.1",
+    "yargs": "^16.0.3"
+  }
+}
