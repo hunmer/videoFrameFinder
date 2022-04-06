@@ -55,7 +55,7 @@ function echoJson(res, data) {
 }
 
 registerApi('/', 'get', (req, res) => {
-    res.sendFile(__dirname + '/web/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 registerApi('/search', 'post',  async function(req, res){
     var d = req.body;
